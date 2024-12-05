@@ -1,0 +1,50 @@
+/* تنظیمات عمومی */
+body {
+    font-family: 'Tahoma', sans-serif;
+    text-align: right;
+    direction: rtl;
+  }
+  
+  .hero {
+    background: linear-gradient(to left, #6a11cb, #2575fc);
+    padding: 100px 0;
+    color: white;
+  }
+  
+  .hero .btn {
+    background-color: white;
+    color: #2575fc;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .hero .btn:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
